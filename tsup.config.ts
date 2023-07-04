@@ -11,7 +11,7 @@ export default defineConfig([
     {
         entry: ['src/icons/**/*.tsx'],
         ...commonConfig,
-        outDir: 'dist/icons'
+        outDir: 'dist'
     },
     {
         entry: ['src/index.ts'],
@@ -21,4 +21,5 @@ export default defineConfig([
             options.outbase = "./src";
         },
         bundle: false
-    }])
+    }
+    ])
